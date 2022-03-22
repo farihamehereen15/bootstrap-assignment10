@@ -1,0 +1,53 @@
+.carousel-indicators{
+    position: relative;
+    margin-top: 1.5rem;
+
+}
+
+.items{
+    max-width: 800px;
+    margin: auto;
+}
+
+.items img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+}
+
+.stars{
+    color: red;
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+}
+
+.stars{
+    margin-bottom: 1.5rem;
+}
+
+.items q{
+    font-size: 1.2rem;
+}
+
+.carousel-indicators [data-bs-target] {
+   
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+   
+}
+
+.bi-arrow-left::before {
+    content: "\f12f";
+    color: red;
+    font-size: 2rem;
+}
+
+.bi-arrow-right::before {
+    content: "\f138";
+    color: red;
+    font-size: 2rem;
+}
